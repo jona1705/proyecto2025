@@ -1,3 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 10px;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: colum-reverse;
+}
+
+.contenedor{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing:  border-box;
+    border: 3px solid red;
+    background-color: aquamarine;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+}
 span{
     width: 200px;
     height: 200px;
