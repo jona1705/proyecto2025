@@ -1,0 +1,15 @@
+span{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    background-color: aquamarine;
+}
+
+label, input{
+    display: block;
+    margin: 10px;
+}
+
+input[type="submit"],input[type="reset"]{
+    display: inline;
+}

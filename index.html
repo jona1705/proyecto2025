@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi documento</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <h1>Mi formulario</h1>
+    <span>Este es un formulario en HTML</span>
     <form action="#" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" required>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo" required>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="10">
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+        <label for="terminos">Acepta terminos y condiciones:</label>
+        <input type="checkbox" name="terminos" id="terminos">
+        <input type="hidden" name="identificador" value="id">
+        <input type="reset" value="Borrar informacion">
         <input type="submit" value="Enviar Datos">
+    
     </form>
 </body>
 </html>
